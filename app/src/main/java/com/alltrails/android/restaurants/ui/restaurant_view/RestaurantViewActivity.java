@@ -81,16 +81,6 @@ public class RestaurantViewActivity extends DaggerAppCompatActivity implements R
     @Override
     public void displayRestaurant(Restaurant restaurant) {
 
-        System.out.println("*************" + restaurant.getBusinessStatus());
-        System.out.println("*************" + restaurant.getReference());
-        System.out.println("*************" + restaurant.getVicinity());
-        System.out.println("*************" + restaurant.getPlusCode().getCompoundCode());
-        System.out.println("*************" + restaurant.getGeometry().getLocationResponse());
-        System.out.println("*************" + restaurant.getPlaceId());
-        System.out.println("*************" + restaurant);
-
-
-
         if (restaurant.getPhotos() != null && restaurant.getPhotos().size() > 0) {
 
             Picasso.with(context).load(constructPhotoReference(restaurant.getPhotos().get(0)
