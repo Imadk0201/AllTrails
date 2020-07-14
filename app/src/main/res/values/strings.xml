@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AllTrails</string>
+    <string name="list_key">List</string>
+    <string name="map_key">Map</string>
+</resources>

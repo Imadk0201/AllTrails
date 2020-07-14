@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="x_small_padding"> 5dp </dimen>
+    <dimen name="small_padding"> 15dp </dimen>
+    <dimen name="medium_padding"> 20dp </dimen>
+    <dimen name="subtitle_list_text"> 12sp </dimen>
+    <dimen name="title_list_text"> 17sp </dimen>
+    <dimen name="button_text"> 20sp </dimen>
+    <dimen name="dimen_25dp"> 25dp </dimen>
+    <dimen name="dimen_30dp"> 30dp </dimen>
+    <dimen name="nav_button_height"> 60dp </dimen>
+    <dimen name="map_rv_margin"> 90dp </dimen>
+    <dimen name="card_height">100dp </dimen>
+    <dimen name="nav_button_width">120dp </dimen>
+    <dimen name="photo_height">275dp </dimen>
+    <dimen name="card_radius"> 5dp </dimen>
+</resources>

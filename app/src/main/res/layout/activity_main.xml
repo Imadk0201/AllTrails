@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <ImageView
+                android:id="@+id/toolbar_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX=".7"
+                android:scaleY=".6"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/toolbar_logo" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_below="@id/toolbar"
+        tools:context=".ui.MainActivity"
+        tools:showIn="@layout/activity_main"
+        android:padding="1dp"
+        android:id="@+id/main_container" />
+
+    <Button
+        android:id="@+id/button_navigation"
+        android:layout_width="@dimen/nav_button_width"
+        android:layout_height="@dimen/nav_button_height"
+        android:layout_marginBottom="@dimen/medium_padding"
+        android:drawableStart="@drawable/ic_map_24dp"
+        android:text="@string/map_key"
+        android:textAllCaps="false"
+        android:textSize="@dimen/button_text"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:theme="@style/Button.Green" />
+
+</RelativeLayout>

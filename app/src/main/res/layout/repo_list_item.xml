@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/card_height"
+        android:layout_marginStart="@dimen/medium_padding"
+        android:layout_marginLeft="@dimen/medium_padding"
+        android:layout_marginEnd="@dimen/medium_padding"
+        android:layout_marginRight="@dimen/medium_padding"
+        app:cardCornerRadius="@dimen/card_radius"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/restaurant_image"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/small_padding"
+                android:layout_marginBottom="@dimen/small_padding"
+                android:layout_marginStart="@dimen/x_small_padding"/>
+
+            <TextView
+                android:id="@+id/restaurant_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/title_list_text"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/small_padding"
+                android:layout_toEndOf="@id/restaurant_image"
+                android:layout_marginStart="@dimen/x_small_padding"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/reposubtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/restaurant_title" />
+
+            <RatingBar
+                android:id="@+id/rating_bar"
+                android:layout_below="@id/restaurant_title"
+                android:layout_toEndOf="@id/restaurant_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/x_small_padding"
+                android:layout_marginStart="@dimen/x_small_padding"
+                android:isIndicator="true"
+                android:theme="@style/RatingBar"
+                android:focusable="false"
+                style="@style/Widget.AppCompat.RatingBar.Small" />
+
+            <TextView
+                android:id="@+id/number_ratings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/subtitle_list_text"
+                android:layout_marginTop="@dimen/x_small_padding"
+                android:layout_marginStart="@dimen/x_small_padding"
+                android:layout_toEndOf="@id/rating_bar"
+                android:layout_below="@id/restaurant_title"/>
+
+            <TextView
+                android:id="@+id/other_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/subtitle_list_text"
+                android:layout_marginTop="@dimen/x_small_padding"
+                android:layout_marginStart="@dimen/x_small_padding"
+                android:layout_toEndOf="@id/restaurant_image"
+                android:layout_below="@id/rating_bar"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
