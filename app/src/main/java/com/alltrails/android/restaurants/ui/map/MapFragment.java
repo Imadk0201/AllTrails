@@ -18,7 +18,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.alltrails.android.restaurants.R;
 import com.alltrails.android.restaurants.RestaurantStream;
 import com.alltrails.android.restaurants.model.Restaurant;
-import com.alltrails.android.restaurants.ui.home.ListAdapter;
+import com.alltrails.android.restaurants.ui.ListAdapter;
 import com.alltrails.android.restaurants.ui.restaurant_view.RestaurantViewActivity;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;

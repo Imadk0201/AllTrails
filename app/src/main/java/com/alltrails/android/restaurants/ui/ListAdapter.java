@@ -1,4 +1,4 @@
-package com.alltrails.android.restaurants.ui.home;
+package com.alltrails.android.restaurants.ui;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -15,7 +15,6 @@ import com.alltrails.android.restaurants.model.Restaurant;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 

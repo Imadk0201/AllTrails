@@ -5,7 +5,7 @@ import android.content.Context;
 
 import com.alltrails.android.restaurants.RestaurantStream;
 import com.alltrails.android.restaurants.network.NetworkInterface;
-import com.alltrails.android.restaurants.ui.home.ListAdapter;
+import com.alltrails.android.restaurants.ui.ListAdapter;
 
 import java.util.concurrent.TimeUnit;
 

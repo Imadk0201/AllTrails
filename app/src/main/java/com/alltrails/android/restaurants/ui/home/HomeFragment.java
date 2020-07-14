@@ -18,6 +18,7 @@ import com.alltrails.android.restaurants.R;
 import com.alltrails.android.restaurants.RestaurantStream;
 import com.alltrails.android.restaurants.model.PlacesResponse;
 import com.alltrails.android.restaurants.network.NetworkInterface;
+import com.alltrails.android.restaurants.ui.ListAdapter;
 import com.alltrails.android.restaurants.ui.restaurant_view.RestaurantViewActivity;
 import com.alltrails.android.restaurants.ui.map.MapFragment;
 
