@@ -55,7 +55,7 @@ public class RestaurantViewActivity extends DaggerAppCompatActivity implements R
         setContentView(R.layout.restaurant_page);
         backArrow = findViewById(R.id.back_arrow);
         cardView = findViewById(R.id.cardView);
-        displayImage = findViewById(R.id.movie_image);
+        displayImage = findViewById(R.id.cover_image);
         repoTitle = findViewById(R.id.restaurant_title);
         repoSubTitle = findViewById(R.id.reposubtitle);
         ratingBar = findViewById(R.id.rating_bar);

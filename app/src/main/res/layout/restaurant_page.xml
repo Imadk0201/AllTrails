@@ -7,7 +7,7 @@
     tools:context=".ui.restaurant_view.RestaurantViewActivity">
 
     <ImageView
-        android:id="@+id/movie_image"
+        android:id="@+id/cover_image"
         android:layout_width="match_parent"
         android:layout_height="@dimen/photo_height" />
 
@@ -22,7 +22,7 @@
         android:id="@+id/included_view"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:layout_below="@id/movie_image"
+        android:layout_below="@id/cover_image"
         layout="@layout/repo_list_item" />
 
     <fragment
